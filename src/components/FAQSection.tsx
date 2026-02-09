@@ -11,7 +11,7 @@ const faqs = [
   { q: "What is the team size?", a: "Teams can have 2 to 4 members. Solo participation is not allowed — collaboration is key!" },
   { q: "What tech stack is allowed?", a: "You can use any programming language, framework, or tool. There are no restrictions on the technology stack." },
   { q: "Does it cost anything to register?", a: "Registration is completely free! We want to make this event accessible to everyone." },
-  { q: "Is there a specific theme?", a: "The hackathon has 3 domains: Web Development, AI, and Machine Learning. You must pick one domain for your project." },
+  { q: "Is there a specific theme?", a: "The hackathon has 3 domains: Web Development, AI/Ml, and MarTech. You must pick one domain for your project." },
   { q: "What should we bring?", a: "Bring your laptop, charger, student ID, and your creativity. Food and beverages will be provided during the event." },
 ];
 
