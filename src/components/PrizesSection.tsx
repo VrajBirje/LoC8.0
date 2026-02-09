@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Trophy, Medal, Star, Award, Gift, Briefcase } from "lucide-react";
 
 const prizes = [
-  { suit: "♠", icon: Trophy, title: "Winner", prize: "₹25,000", subtitle: "The Royal Flush" },
-  { suit: "♥", icon: Medal, title: "Runner-Up", prize: "₹15,000", subtitle: "Full House" },
-  { suit: "♦", icon: Star, title: "Special Awards", prize: "₹10,000", subtitle: "Wild Card" },
+  { suit: "♠", icon: Trophy, title: "Winner", prize: "₹15,000", subtitle: "The Royal Flush" },
+  { suit: "♥", icon: Medal, title: "Runner-Up", prize: "₹10,000", subtitle: "Full House" },
+  { suit: "♦", icon: Star, title: "2nd Runner-Up", prize: "₹5,000", subtitle: "Wild Card" },
 ];
 
 const benefits = [
