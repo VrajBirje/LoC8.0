@@ -1,12 +1,44 @@
 import { motion } from "framer-motion";
 
 const steps = [
-  { suit: "♠", title: "Registration Opens", date: "1 Feb", desc: "Sign up your team and submit project ideas." },
-  { suit: "♦", title: "PPT Submission", date: "10 Feb", desc: "Submit your project proposal for screening." },
-  { suit: "♥", title: "Shortlisting", date: "15 Feb", desc: "Selected teams are announced for the finals." },
-  { suit: "♣", title: "Hackathon Day 1", date: "21 Feb", desc: "Opening ceremony, team setup, and hacking begins!" },
-  { suit: "♠", title: "Hackathon Day 2", date: "22 Feb", desc: "Final submissions, judging & awards ceremony." },
+  { 
+    suit: "♠", 
+    title: "Registration Opens", 
+    date: "9 Feb", 
+    desc: "Team registrations begin and participants can start submitting their initial project ideas." 
+  },
+  { 
+    suit: "♥", 
+    title: "Registration Ends", 
+    date: "15 Feb", 
+    desc: "The registration window closes. No new team entries will be accepted after this date." 
+  },
+  { 
+    suit: "♦", 
+    title: "Webinar", 
+    date: "17 Feb", 
+    desc: "A preparatory webinar will be conducted to guide participants and address key details." 
+  },
+  { 
+    suit: "♣", 
+    title: "PPT Submission", 
+    date: "18–19 Feb", 
+    desc: "Teams must upload their project presentation (PPT) for the evaluation round." 
+  },
+  { 
+    suit: "♠", 
+    title: "Shortlisting PPT", 
+    date: "20 Feb", 
+    desc: "Submitted PPTs are reviewed and shortlisted teams for the finals are announced." 
+  },
+  { 
+    suit: "♥", 
+    title: "Hackathon Day", 
+    date: "21–22 Feb", 
+    desc: "The hackathon begins! Shortlisted teams work on building and presenting their solutions." 
+  },
 ];
+
 
 const TimelineSection = () => {
   return (

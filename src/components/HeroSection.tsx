@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-bg.jpg";
+import LOCLogo from "../assets/LOC.png";
+
 
 const suits = ["♠", "♥", "♦", "♣"];
 
@@ -35,12 +37,18 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
         >
           <p className="text-sm md:text-base uppercase tracking-[0.3em] text-primary font-semibold mb-4">
-            ♠ 21 & 22 February 2025 ♠
+            ♠ 21 & 22 February 2026 ♠
           </p>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-4">
+          {/* <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-4">
             <span className="text-gradient-gold">LOC</span>
-          </h1>
-          <h2 className="text-2xl md:text-4xl font-display text-foreground mb-6">
+          </h1> */}
+      <img 
+  src={LOCLogo} 
+  alt="LOC Logo" 
+  className="w-[200px] md:w-[350px] lg:w-[600px]"
+/>
+
+          <h2 className="text-2xl md:text-4xl font-display text-foreground mb-6 mt-0">
             Line of Code Hackathon
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-2 font-body">

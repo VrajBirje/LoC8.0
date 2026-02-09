@@ -14,7 +14,7 @@ const domains = [
   {
     suit: "♥",
     icon: Brain,
-    title: "Artificial Intelligence",
+    title: "AI/ML",
     front: "Leverage AI to solve real-world problems with intelligent systems.",
     back: "NLP, Computer Vision, Generative AI, LLM integrations, chatbots, recommendation systems, and more.",
     color: "text-crimson",
@@ -22,7 +22,7 @@ const domains = [
   {
     suit: "♣",
     icon: Cpu,
-    title: "Machine Learning",
+    title: "MarTech Open Innovation",
     front: "Train models that learn, predict, and transform data into insights.",
     back: "Predictive analytics, classification, deep learning, data pipelines, model deployment & evaluation.",
     color: "text-emerald",
