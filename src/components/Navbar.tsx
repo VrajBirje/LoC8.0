@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import ACMLogo from "../assets/ACM_logo.jpg";
 
 const navLinks = [
   { label: "About", href: "#about" },
@@ -33,7 +34,12 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <a href="#" className="font-display text-2xl font-bold text-gradient-gold">
-          ♠ LOC
+          {/* ♠ LOC */}
+          <img 
+            src={ACMLogo} 
+            alt="ACM Logo" 
+            className="w-[200px] md:w-[50px] lg:w-[100px]"
+          />
         </a>
 
         {/* Desktop */}

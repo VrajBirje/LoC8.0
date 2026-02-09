@@ -16,11 +16,11 @@ const partners = [
 const sponsors = [
   {
     name: "iPolygon",
-    logo: "/logos/polygon.png",
+    logo: "/logos/ipolygon.jpg",
   },
   {
     name: "Vercel",
-    logo: "/logos/vercel.png",
+    logo: "/logos/vercel.jpg",
   },
   {
     name: "Aventus",

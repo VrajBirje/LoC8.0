@@ -55,7 +55,7 @@ const HeroSection = () => {
             Code your way to the winning hand
           </p>
           <p className="text-3xl md:text-4xl font-display font-bold text-gradient-gold mb-10">
-            Prize Pool: ₹50,000+
+            Prize Pool: ₹30,000
           </p>
         </motion.div>
 
