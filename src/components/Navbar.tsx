@@ -38,7 +38,7 @@ const Navbar = () => {
           <img 
             src={ACMLogo} 
             alt="ACM Logo" 
-            className="w-[200px] md:w-[50px] lg:w-[100px]"
+            className="w-[200px] md:w-[50px] lg:w-[80px]"
           />
         </a>
 
